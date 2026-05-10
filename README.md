@@ -246,14 +246,7 @@ Through this project, I learned:
 
 ---
 
-## 👨‍💻 Author
 
-**Rahul**
-
-- GitHub: https://github.com/your-username
-- LinkedIn: https://linkedin.com/in/your-profile
-
----
 
 ## ⭐ Conclusion
 
