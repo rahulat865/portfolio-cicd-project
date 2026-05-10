@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "name": "Priyanshu Singh",
+    "username": "priyanshulink",
+    "bio": "It's not over, until I win. 🎯",
+    "avatar": "https://avatars.githubusercontent.com/u/171472006?v=4",
+    "location": "Bhopal, Madhya Pradesh",
+    "email": "ompriyanshu12@gmail.com",
+    "followers": 4,
+    "following": 4,
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/priyanshu-singh-188715290/",
+      "twitter": "@Priyans15649068",
+      "instagram": "priyanshuu__singhh",
+      "facebook": "profile.php?id=61551352920361"
+    }
+  },
+
+  "readme": {
+    "title": "Welcome to my profile! I'm Priyanshu Singh",
+    "subtitle": "🚀 Passionate Developer | Problem Solver | Tech Enthusiast",
+
+    "about": [
+      "🌐 Full Stack Web Developer",
+      "⚛️ React.js Developer",
+      "🎯 Strong in Data Structures & Algorithms",
+      "🧠 Problem Solver (LeetCode / GFG)",
+      "💻 Passionate about building scalable web apps",
+      "📚 Always learning new technologies"
+    ],
+
+    "contact": {
+      "email": "ompriyanshu12@gmail.com",
+      "linkedin": "Priyanshu Singh"
+    }
+  },
+
+  "pinnedRepositories": [
+    {
+      "name": "Enterprise-Authentication-Authorization-API",
+      "visibility": "Public",
+      "description": "Complete authentication and authorization system with JWT tokens, 2FA, OAuth/SSO, audit logging, and comprehensive security features.",
+      "language": "JavaScript",
+      "stars": 0
+    },
+    {
+      "name": "Missing-Person-Detection-System",
+      "visibility": "Public",
+      "description": "AI-powered person detection and identification system using YOLO and face recognition with MERN based web development.",
+      "language": "JavaScript",
+      "stars": 2
+    },
+    {
+      "name": "todo-api",
+      "visibility": "Public",
+      "description": "A simple and lightweight Todo API built using Node.js and Express. This API supports all CRUD operations.",
+      "language": "JavaScript",
+      "stars": 0
+    },
+    {
+      "name": "Monastery-Preservation-Showcase-Platform",
+      "visibility": "Public",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 0
+    }
+  ],
+
+  "highlights": {
+    "pro": true
+  }
+}

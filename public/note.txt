@@ -1,0 +1,140 @@
+/**
+ * @file: profile.config.ts
+ * @author: Priyanshu singh
+ * @summary: A full-stack engineer.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "React.js",    // 100%
+    "Next.js",     // 95%
+    "TailwindCSS", // 90%
+  ],
+  backend: [
+    "Node.js",     // 90%
+    "Express.js",  // 90%
+    "Redis",       // 75%
+  ],
+  tools: ["Git","GitHub","VS Code"]
+};
+
+// --------------------------------------------------
+// 2. EXPERIENCE LOG (Reverse Chronological)
+// --------------------------------------------------
+
+class ProfessionalHistory {
+  
+  /** 
+   * CURRENT ROLE
+   * @period 2024 - Present 
+   */
+  public async Self_Learning_Developer(): Promise<Impact> {
+    
+    const role = "Full Stack Developer (Student)";
+    
+    // Key Work
+    const projects = [
+      "Missing Person Detection System (AI + Computer Vision)",
+      "Monastery Preservation Showcase Platform (Frontend)",
+      "Road Damage Detection System (YOLOv8 + React)"
+    ];
+
+    const skillsImproved = [
+      "React.js & TailwindCSS (UI Development)",
+      "Node.js & Express (Backend Basics)",
+      "OpenCV & YOLOv8 (AI Integration)"
+    ];
+
+    const problemSolving = "Practicing DSA on LeetCode & GeeksforGeeks";
+
+    const focus = "Building real-world projects & improving full-stack skills";
+
+    return { role, projects, skillsImproved, problemSolving, focus };
+  }
+
+  /** 
+   * LEARNING PHASE
+   * @period 2023 - 2024
+   */
+  public Learning_Phase(): void {
+    
+    this.role = "Frontend Developer (Beginner)";
+    
+    this.focus = [
+      "HTML, CSS, JavaScript fundamentals",
+      "React.js basics & component architecture",
+      "Responsive design using TailwindCSS"
+    ];
+
+    // Built small UI projects
+    // Learned Git & GitHub workflow
+    // Started problem-solving journey
+  }
+}/** 
+ * PREVIOUS ROLE
+ * @period 2023 - 2024
+ */
+public Learning_And_Building_Phase(): void {
+
+  this.role = "Frontend Developer (Learner)";
+  
+  this.focus = "UI Development & Core Web Fundamentals";
+
+  // Built multiple React projects (routing, components, layouts)
+  // Practiced responsive design using TailwindCSS
+  // Developed reusable UI components
+  // Learned Git & GitHub for version control
+  // Strengthened JavaScript fundamentals
+  // Started solving DSA problems (LeetCode / GeeksforGeeks)
+}// --------------------------------------------------
+// 3. COMPETITIVE ACHIEVEMENTS
+// --------------------------------------------------
+
+interface Achievement {
+  title: string;
+  event: string;
+  domain?: string;
+}
+
+const trophyCabinet: Achievement[] = [
+  {
+    title: "Young Youth Award for Research & Patent",
+    event: "Innovation & Research Recognition",
+    domain: "Research / Innovation"
+  },
+  {
+    title: "Winner",
+    event: "GDG TechSprint 2025",
+    domain: "Full Stack / Development"
+  },
+  {
+    title: "Best in AI/ML Domain",
+    event: "HackJKLU Hackathon",
+    domain: "Artificial Intelligence & Machine Learning"
+  }
+];// --------------------------------------------------
+// 4. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  [
+    "Oriental Institute of Science and Technology",
+    "B.Tech (Computer Science / IT) | CGPA: 7.5"
+  ],
+]);
+
+export default new ProfessionalHistory();
+
+```bash
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ user --status
+> Status: Open to Opportunities
+> Location: Global / Remote
+> Loading Assets... [||||||||||] 100%
+> Ready.
+```

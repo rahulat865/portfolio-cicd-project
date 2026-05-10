@@ -1,0 +1,77 @@
+.cli-window {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0d1117;
+    color: #e6edf3;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 13px;
+    padding: 0;
+
+    .cli-output {
+        flex: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 1.5rem;
+        background-color: rgba(13, 17, 23, 0.9);
+        border-bottom: 1px solid #30363d;
+        
+        &::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background: #30363d;
+            border-radius: 4px;
+            
+            &:hover {
+                background: #484f58;
+            }
+        }
+    }
+
+    .cli-line {
+        margin-bottom: 0.25rem;
+        white-space: pre-wrap;
+        word-break: break-word;
+        line-height: 1.5;
+        
+        &:empty {
+            min-height: 1.5em;
+        }
+    }
+
+    .cli-input-line {
+        display: flex;
+        align-items: center;
+        padding: 0.75rem 1.5rem;
+        background-color: rgba(13, 17, 23, 0.95);
+        border-top: 1px solid #30363d;
+        gap: 0.5rem;
+    }
+
+    .cli-prompt {
+        color: #58a6ff;
+        font-weight: bold;
+        flex-shrink: 0;
+    }
+
+    .cli-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #e6edf3;
+        font-family: inherit;
+        font-size: inherit;
+        caret-color: #58a6ff;
+        
+        &::placeholder {
+            color: #6e7681;
+        }
+    }
+}
