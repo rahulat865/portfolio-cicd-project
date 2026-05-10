@@ -208,7 +208,7 @@ npm run build
 ## 🌐 Live Demo
 
 ```text
-http://your-bucket-name.s3-website-us-east-1.amazonaws.com
+http://rahul-portfolio-site-2026.s3-website-us-east-1.amazonaws.com
 ```
 
 ---
